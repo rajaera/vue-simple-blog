@@ -1,0 +1,224 @@
+[
+  {
+    "title": "How I Built a Simple Blog App with Vue 3 (and How You Can Too)",
+    "slug": "post-1",
+    "thumbnail": "/posts/post-1-thumb-1.png",
+    "excerpt": "This post walks through how I built a minimal blog using Vue 3, from setup and layout design to adding posts and hosting.",
+    "tag": "project",
+    "published": "2025-05-07"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },{
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  },{
+    "title": "How I Started My Research",
+    "slug": "post-1",
+    "thumbnail": "/posts/thumb1.jpg",
+    "excerpt": "This is a short intro to the first article...",
+    "tag": "tip",
+    "published": "2025-05-01"
+  },
+  {
+    "title": "Ancient Wisdom in Modern Times",
+    "slug": "post-2",
+    "thumbnail": "/posts/thumb2.jpg",
+    "excerpt": "Blending traditional knowledge with today’s world...",
+    "tag": "research",
+    "published": "2025-05-01"
+  }
+]

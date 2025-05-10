@@ -1,0 +1,111 @@
+  
+  
+  <h1>How I Built a Simple Blog App with Vue 3 (and How You Can Too)</h1>
+
+<h2>👋 Introduction</h2>
+<p class="post-date">Published on April 20, 2025 · #project</p>
+<img src="/posts/post-1-thumb-1.png" class="post-banner" />
+<p>I’ve always wanted a personal space to share my thoughts, research, and projects—without the clutter or limitations of large platforms. So I built a minimalist blog app using <strong>Vue 3</strong>, focused on simplicity, speed, and flexibility.</p>
+
+<p>This post walks you through the entire process, from planning to deployment. You’ll find it especially helpful if you:</p>
+<ul>
+  <li>Prefer full control over your blog</li>
+  <li>Like lightweight setups with no CMS overhead</li>
+  <li>Want to learn Vue 3 through a hands-on project</li>
+</ul>
+
+<h2>📌 1. Project Plan and Goals</h2>
+<p>I started with a few key goals:</p>
+<ul>
+  <li>Keep the layout <strong>simple and mobile-friendly</strong></li>
+  <li>Use plain files like <code>.json</code> and <code>.html</code> instead of a database</li>
+  <li><strong>Avoid heavy dependencies</strong> like Tailwind CSS</li>
+  <li>Enable <strong>easy post creation</strong> via manual file editing</li>
+  <li>Make it open for future features like reactions, comments, and a dashboard</li>
+</ul>
+
+<h2>🧱 2. UI Mockup and Component Structure</h2>
+<p>Here's the basic layout I envisioned:</p>
+<pre>
++--------------------------+
+| Avatar + Name           |
+| Menu: Projects | Posts  |
++--------------------------+
+|     Post Cards Grid     |
+|   (20 at a time + Load) |
++--------------------------+
+| Scroll to Top Button    |
++--------------------------+
+</pre>
+
+<p><strong>Main components:</strong></p>
+<ul>
+  <li><code>Home.vue</code> – Displays blog cards loaded from <code>posts.json</code></li>
+  <li><code>PostPage.vue</code> – Shows full post content from individual <code>.html</code> files</li>
+  <li><code>posts.json</code> – Stores metadata like title, date, and filename</li>
+  <li><code>post-x.html</code> – Actual blog post body (can include images, HTML, etc.)</li>
+</ul>
+
+<h2>⚙️ 3. Setting Up the Vue App</h2>
+<p>Here's how to create a new Vue 3 app using Vite:</p>
+<pre><code>npm create vite@latest vue-simple-blog --template vue
+cd vue-simple-blog
+npm install
+npm run dev</code></pre>
+
+<p>Your folder will look like:</p>
+<pre>
+vue-simple-blog/
+├── public/
+│   └── post/
+│       ├── post-1.html
+│       └── post-2.html
+├── src/
+│   ├── components/
+│   ├── pages/
+│       ├── Home.vue
+│       └── PostPage.vue
+│   └── App.vue
+├── posts.json
+</pre>
+
+<p>To enable routing between pages:</p>
+<pre><code>npm install vue-router</code></pre>
+
+<h2>✍️ 4. Adding and Displaying Posts</h2>
+<p>To add a blog post:</p>
+<ol>
+  <li>Create a new HTML file like <code>post-3.html</code> inside <code>/public/post/</code></li>
+  <li>Add a new entry in <code>posts.json</code>:
+<pre><code>[
+  {
+    "id": 1,
+    "title": "Welcome to My Blog",
+    "date": "2025-05-07",
+    "filename": "post-1.html"
+  }
+]</code></pre></li>
+  <li>The Home page loads this JSON and shows clickable cards</li>
+  <li>Clicking a card navigates to <code>PostPage.vue</code>, which fetches and displays the HTML content</li>
+</ol>
+
+<h2>📥 5. Try It Yourself (Download from GitHub)</h2>
+<p>You can try or fork the blog from GitHub:</p>
+<p><strong>🔗 GitHub:</strong> <a href="https://github.com/yourusername/vue-simple-blog" target="_blank">https://github.com/yourusername/vue-simple-blog</a></p>
+
+<pre><code>git clone https://github.com/yourusername/vue-simple-blog.git
+cd vue-simple-blog
+npm install
+npm run dev</code></pre>
+
+<h2>🧠 Final Thoughts</h2>
+<p>This blog app is intentionally simple. I built it as a foundation for my future ideas and as a practical Vue learning experience. In the next version, I’ll be adding:</p>
+<ul>
+  <li>A basic reaction system</li>
+  <li>Commenting feature</li>
+  <li>A dashboard for managing posts</li>
+</ul>
+
+<p>If you like building things from scratch and keeping control of your data, feel free to fork the repo or build your own version.</p>
+
+<p>Thanks for reading! 🙏</p>
